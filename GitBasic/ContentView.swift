@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             List {
-                NavigationLink("Create a story kintil") {
+                NavigationLink("Create a story kuntul") {
                     DefinitionView(title: "Create a story", definition: "My story is on the Whiteboard")
                 }
                 NavigationLink("Version Control") {
