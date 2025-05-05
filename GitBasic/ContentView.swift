@@ -24,7 +24,7 @@ struct ContentView: View {
                 NavigationLink("Workflow") {
                     DefinitionView(title: "Workflow", definition: "A workflow is a defined sequence of steps or stages in a development cycle.")
                 }
-                NavigationLink("What I learned today") {
+                NavigationLink("What I learned today1") {
                     LearnedTodayView()
                 }
             }
